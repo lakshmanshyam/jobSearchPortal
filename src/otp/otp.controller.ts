@@ -1,4 +1,10 @@
-import { Controller } from '@nestjs/common';
+import { Controller, Post } from '@nestjs/common';
 
 @Controller('otp')
-export class OtpController {}
+export class OtpController {
+
+    @Post()
+    generateNewOTP(){
+
+    }
+}
